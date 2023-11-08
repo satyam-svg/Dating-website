@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import video from './video.mp4';
 
 const centerVideoStyle = {
+  overflow: 'hidden',
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',

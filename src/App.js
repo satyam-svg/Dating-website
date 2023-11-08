@@ -6,9 +6,9 @@ function App() {
   return (
     <>
     <Router>
+      <RedirectComponent/>
       <Routes>
-       <Route path="/" Component={VideoComponent}/>
-       <Route path="/" Component={RedirectComponent}/>
+      
        </Routes>
        </Router>
     </>
