@@ -6,9 +6,17 @@ import img3 from "./images/male.jpg";
 export default function RedirectComponent() {
   return (
     <>
+    <div id="wrapper2">
+    <div id="container10">
+
+        <h1 className="a">MEET THE</h1>
+        <h1 className="b">CHOSEN ONE.</h1>
+
+    </div>
+</div>
       <div class="circle"></div>  
-           <img src={img1} alt="Your" className="centered-image" />
-           <img src={img2} alt="Your" className="centered-image1" />
+           <img src={img1} alt="Your" className="centered-image" loading="lazy" />
+           <img src={img2} alt="Your" className="centered-image1" loading="lazy" />
           <div className="container">
         <div class="rectangle">
           <div class="loading-bar loading-bar1"></div>

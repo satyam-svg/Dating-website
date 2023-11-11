@@ -1,25 +1,22 @@
-import React, { useEffect } from 'react'
-import './navbar.css'
-export default function Navbar() {
-    useEffect(()=>{
-        
-    },[])
+import React from 'react';
+import './navbar.css';
+
+export default function Navbar({ toggleComponents }) {
   return (
-   
     <>
-      <div class="bars" id="nav-action">
-  <span class="bar"> </span>
-</div>
-<nav id="nav">
-  <ul>
-    <li class="shape-circle circle-one"><a href="#">Contact</a></li>
-    <li class="shape-circle circle-two"><a href="#">Blog</a></li>
-    <li class="shape-circle circle-three"><a href="#">Work</a></li>
-    <li class="shape-circle circle-five">
-      <a href="#">Home</a>
-    </li>
-  </ul>
-</nav>
+      <input type="checkbox" id="active" />
+      <label htmlFor="active" className="menu-btn" onClick={toggleComponents}>
+        <i className="fas fa-bars"></i>
+      </label>
+      <div className="wrapper">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </div>
     </>
-  )
+  );
 }
