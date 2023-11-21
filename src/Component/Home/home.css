@@ -9,30 +9,103 @@ body {
     justify-content: flex-end;
   }
   
+  h4 {
+    margin-left: 3px;
+  }
+  
   img {
     width: 300px;
     height: auto;
   }
   
-  .img1{
-    width: 40px;
-    height: 40px;
+  .img1 {
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
+    display: flex;
+    justify-content: baseline;
   }
+  
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: baseline;
+  }
+  
+  .img2,
+  .img3,
+  .img4,
+  .img5 {
+    position: relative;
+    right: 6px;
+  }
+  
+  .img6 {
+    width: 37px;
+    height: 37px;
+    position: relative;
+    right: 12px;
+  }
+  
   .rectangle {
     position: absolute;
-    width: 240px;
-    height: 100px;
+    width: 200px;
+    height: 80px;
     background-color: #ffffff;
-    /* Rectangle color */
     border: 2px solid black;
     border-radius: 1rem;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-    /* Dark shadow */
     right: 14rem;
     bottom: 1rem;
   }
   
+  .img8 {
+    width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 16.5rem; /* Adjust as needed */
+    right: 14rem; /* Should be the same as rectangle's right property */
+    z-index: 9999;
+  }
+  
+  .small-circle {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.7rem;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+   position: absolute;
+   top: 20%;
+   margin-left: 2rem;
+  }
+  .custom-button {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 150px;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 8rem; /* Adjust the border radius as needed */
+    cursor: pointer;
+  }
+  .wrapper h1{
+    font-size: 4rem;
+    font-family: Anton;
+  }
+  .wrapper h1 h3{
+    font-size: 1rem;
+    font-weight: 400;
+  }
   @media only screen and (max-width: 790px) {
     .container {
       display: flex;
@@ -47,6 +120,22 @@ body {
     .rectangle {
       right: 10rem;
       bottom: 1rem;
+    }
+  
+    .img8 {
+      display: none;
+    }
+  
+    .wrapper {
+      display: flex;
+      flex-direction: column; /* Stack items vertically on mobile */
+      align-items: flex-end; /* Align items to the right on mobile */
+      margin-top: 16rem; /* Adjust as needed */
+    }
+  
+    .wrapper h1 {
+      font-size: 3rem;
+      margin: 0; /* Remove default margin to avoid extra space */
     }
   }
   
