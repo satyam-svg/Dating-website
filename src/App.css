@@ -1,7 +1,7 @@
 .App {
   text-align: center;
+  
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +35,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+.logo {
+  width: 20rem; /* Adjust the width as needed */
+  height: 10vh; /* Adjust the height as needed */
+  margin-top: 20px; /* You can adjust the margin-top to control the distance from the top */
 }
