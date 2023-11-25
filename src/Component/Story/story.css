@@ -1,0 +1,16 @@
+.story-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}
+.dark p{
+    color: white;
+}
+.story-container p {
+    text-align: center;
+    font-family: Vina Sans;
+    font-size: 5rem; /* Added to center the text within the paragraph */
+}

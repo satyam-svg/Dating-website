@@ -1,0 +1,217 @@
+.work-container {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .work-container h1 {
+    font-family: 'Black Ops One';
+    font-weight: 800;
+    font-size: 3.6rem;
+  }
+  
+  .main {
+    margin-left: 9rem;
+    position: relative;
+    bottom: 5rem;
+  }
+  
+  .love1 {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    flex-shrink: 0;
+    border-radius: 3.1875rem;
+    background: linear-gradient(360deg, rgba(213, 161, 208, 0.68) 16.67%, rgba(217, 217, 217, 0.12) 72.57%, rgba(217, 217, 217, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 9rem;
+  }
+  .love2 {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    flex-shrink: 0;
+    border-radius: 3.1875rem;
+    background: linear-gradient(360deg, rgba(234, 208, 140, 0.79) 16.67%, rgba(217, 217, 217, 0.12) 72.57%, rgba(217, 217, 217, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 18rem;
+    bottom: 35rem;
+     
+  }
+  .dark .love1{
+    border: 2px solid rgba(255, 255, 255, 0.732);
+    box-shadow: rgba(246, 245, 245, 0.05) 0px 4px 20px 7px;
+  }
+  .dark .love2{
+    border: 2px solid rgba(255, 255, 255, 0.732);
+    box-shadow: rgba(246, 245, 245, 0.05) 0px 4px 20px 7px;
+  }
+  .dark .love3{
+    border: 2px solid rgba(255, 255, 255, 0.732);
+    box-shadow: rgba(246, 245, 245, 0.05) 0px 4px 20px 7px;
+  }
+  .love3 {
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    flex-shrink: 0;
+    border-radius: 3.1875rem;
+    background: linear-gradient(360deg, rgba(115, 182, 219, 0.70) 16.67%, rgba(217, 217, 217, 0.12) 72.57%, rgba(217, 217, 217, 0.00) 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 35rem;
+    bottom: 50rem;
+     
+  }
+  
+  .ellipse1 {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 2rem;
+    position: relative;
+    left: 6rem;
+    bottom: 5rem;
+    flex-shrink: 0;
+    background: url('Images/icons8-handshake-heart-48.png'), rgba(182, 133, 177, 0.338) 50% / cover no-repeat;
+  }
+  .ellipse2 {
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 2.8rem;
+    position: relative;
+    bottom: 31rem;
+    left: 24rem;
+    flex-shrink: 0;
+    background: url('Images/icons8-love-path-48.png'), rgba(234, 208, 140, 0.79) 50% / cover no-repeat;
+  }
+  
+  .ellipse3 {
+    width: 3.3rem;
+    height: 3.3rem;
+    border-radius: 2.8rem;
+    position: relative;
+    bottom:46rem;
+    left: 41rem;
+    flex-shrink: 0;
+    background: url('Images/icons8-love-50.png'), rgba(115, 182, 219, 0.70) 50% / cover no-repeat;
+  }
+  
+  .love1 h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+  h6 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-weight: 400;
+  }
+  .svg{
+    position: relative;
+    left: 10rem;
+    bottom: 1rem;
+    color: wheat;
+    
+  }
+  .svg3{
+    display: none;
+  }
+  .svg1{
+    position: relative;
+    bottom: 27rem;
+    left: 29rem;
+  }
+  .dark path{
+    fill: white;
+  }
+  @media only screen and (max-width: 790px){
+    .work-container{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .work-container h1{
+        font-size: 1.6rem;
+        margin-top: 2rem;
+    }
+    .love1{
+        width: 10rem;
+        height: 11rem;
+        position: relative;
+        right: 7rem;
+        bottom: -6rem;
+    }
+    .ellipse1{
+        position: absolute;
+        top: 25%;
+        left:-19%;
+
+    }
+    .love2{
+        width: 10rem;
+        height: 11rem;
+        position: relative;
+        right: 7rem;
+        top: 0rem;
+        left: 4rem;
+        
+    }
+    .love3{
+        width: 10rem;
+        height: 11rem;
+        position: relative;
+        right: 7rem;
+        top: -1rem;
+        left: -9rem;
+        
+    }
+    .ellipse2{
+        position: absolute;
+        top: 36%;
+        left:43%;
+    }
+    .ellipse3{
+        position: absolute;
+        top: 58%;
+        left:-34%;
+    }
+    .svg{
+        width: 150px;
+        height: 100px;
+        position: relative;
+        top: 11rem;
+        left: 1rem;
+    }
+    .svg1{
+        display: none;
+    }
+    .svg3{
+        display: block;
+        width: 150px;
+        height: 100px;
+        position: relative;
+        top: -11rem;
+        left: 1rem;
+    }
+    .main{
+        margin-right: 2rem;
+    }
+  }
+  
+  
+  
+  

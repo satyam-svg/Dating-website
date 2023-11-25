@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect} from "react";
 import "./home.css";
 import img1 from "./Images/Ellipse 1.png";
 import img2 from "./Images/charlie-green-3JmfENcL24M-unsplash.jpg";
@@ -8,10 +8,13 @@ import img5 from "./Images/irene-strong-v2aKnjMbP_k-unsplash.jpg";
 import img6 from "./Images/tamara-bellis-Brl7bqld05E-unsplash.jpg";
 import img7 from "./Images/icons8-add-30.png";
 import img8 from "./Images/heart-4928970_1280.png";
+import img9 from "./Images/icons8-apple-50.png";
+import img10 from "./Images/icons8-play-store-50.png";
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger'; 
 export default function Home() {
     gsap.registerPlugin(ScrollTrigger);
+
     useEffect(()=>{
         gsap.registerPlugin(ScrollTrigger);
 // REVEAL //
@@ -60,9 +63,9 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
   return (
     <>
     
-      <div className="container">
+      <div className="container2">
       
-        <img src={img1} alt="error" />
+        <img src={img1} className="i"alt="error" />
         <img src={img8} alt="error" className="img8" />
         <div className="rectangle">
           <h4>2.8k+ Members</h4>
@@ -86,6 +89,16 @@ Looking for that someone special? Create an account with us and get<br/> ready t
 </h3>
 </h1>
 <button class="custom-button">Join Now</button>
+      </div>
+      <div className="download">
+        <div className="box1">
+          <img src={img9} alt="error" className="apple" />
+          <h5>Download from <br/><span className="store-apple">App Store</span></h5>
+        </div>
+        <div className="box2">
+        <img src={img10} alt="error" className="apple" />
+          <h5>Download from <br/><span className="store-apple">Play Store</span></h5>
+        </div>
       </div>
     </>
   );

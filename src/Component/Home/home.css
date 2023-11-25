@@ -2,7 +2,7 @@ body {
     overflow: hidden;
   }
   
-  .container {
+  .container2 {
     position: relative;
     margin-top: 6rem;
     display: flex;
@@ -98,6 +98,7 @@ body {
     border-radius: 8rem; /* Adjust the border radius as needed */
     cursor: pointer;
   }
+  
   .wrapper h1{
     font-size: 4rem;
     font-family: Anton;
@@ -106,12 +107,64 @@ body {
     font-size: 1rem;
     font-weight: 400;
   }
+  .download{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .box1{
+    height: 60px;
+    width: 240px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    display: flex;
+  }
+  h5{
+    margin-top: 8px;
+    margin-left: 17px;
+  }
+  .store-apple{
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+  }
+  .apple{
+    width: 35px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 9px;
+  }
+  
+  .dark .apple {
+    filter: brightness(0) invert(1); /* Set the filter to invert and adjust brightness */
+  }
+  .dark h5 {
+    color: white; /* Set the color to white in dark mode */
+  }
+  .dark h1{
+    color: white;
+  }
+  .dark button{
+     background-color: white;
+     color: black;
+  }
+  .box2{
+    height: 60px;
+    width: 240px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin-right: 1rem;
+    display: flex;
+  }
   @media only screen and (max-width: 790px) {
-    .container {
+    .container2 {
       display: flex;
       justify-content: flex-end;
     }
-  
+  .i{
+    width: 200px;
+  }
     img {
       width: 240px;
       height: auto;
@@ -128,14 +181,51 @@ body {
   
     .wrapper {
       display: flex;
-      flex-direction: column; /* Stack items vertically on mobile */
-      align-items: flex-end; /* Align items to the right on mobile */
-      margin-top: 16rem; /* Adjust as needed */
+      flex-direction: column;
+      align-items: flex-start;
+      margin-top: 13rem;
+      margin-left: 2rem;
     }
   
     .wrapper h1 {
       font-size: 3rem;
-      margin: 0; /* Remove default margin to avoid extra space */
+      margin: 0;
+    }
+    .custom-button {
+      margin-top: 1rem; /* Adjust margin as needed */
+    }
+  
+    .download {
+      display: flex;
+      flex-direction: row; /* Change back to column */
+      align-items: flex-start;
+      margin-top: 22rem;
+      margin-left: 2rem; /* Adjust margin as needed */
+    }
+    .box1 {
+      height: 60px;
+      width: 261px;
+      border: 2px solid black;
+      border-radius: 1rem;
+      margin-right: 1rem;
+      display: flex;
+  }
+    
+    .box1,
+    .box2 {
+      margin-right: 1rem;
+    }
+  
+    .store-apple {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bolder;
+    }
+    
+    .apple {
+      width: 30px;
+      height: 25px;
+      margin-top: 10px;
+      margin-left: 9px;
     }
   }
   

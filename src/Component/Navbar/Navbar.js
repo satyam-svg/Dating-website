@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect} from 'react';
 import './navbar.css';
 import { Link } from 'react-router-dom';
 
@@ -63,31 +63,31 @@ export default function Navbar() {
   return (
     <>
          <nav>
-        <div class="nav-bar">
-            <i class='bx bx-menu sidebarOpen' ></i>
-            <span class="logo navLogo"><a href="#">LOVELOOM</a></span>
-            <div class="menu">
-                <div class="logo-toggle">
-                    <span class="logo"><a href="#">LOVELOOM</a></span>
-                    <i class='bx bx-x siderbarClose'></i>
+        <div className="nav-bar">
+            <i className='bx bx-menu sidebarOpen' ></i>
+            <span className="logo navLogo"><Link to="/">LOVELOOM</Link></span>
+            <div className="menu">
+                <div className="logo-toggle">
+                    <span className="logo" id='logo1'><Link to="/">LOVELOOM</Link></span>
+                    <i className='bx bx-x siderbarClose'></i>
                 </div>
-                <ul class="nav-links">
-                <li><Link to="/">Home</Link></li>               <li><Link href="#">Members</Link></li>               <li><Link href="#">How it Works</Link></li>               <li><Link href="#">Stories</Link></li>               <li><Link href="#">Login</Link></li>               <li><Link href="#">Sign Up</Link></li>
+                <ul className="nav-links">
+                <li><Link to="/">Home</Link></li>               <li><Link to="/members">Members</Link></li>               <li><Link to="works">How it Works</Link></li>               <li><Link to="story">Stories</Link></li>               <li><Link href="#">Login</Link></li>               <li><Link href="#">Sign Up</Link></li>
                 </ul>
             </div>
-            <div class="darkLight-searchBox">
-                <div class="dark-light">
-                    <i class='bx bx-moon moon'></i>
-                    <i class='bx bx-sun sun'></i>
+            <div className="darkLight-searchBox">
+                <div className="dark-light">
+                    <i className='bx bx-moon moon'></i>
+                    <i className='bx bx-sun sun'></i>
                 </div>
-                <div class="searchBox">
-                   <div class="searchToggle">
-                    <i class='bx bx-x cancel'></i>
-                    <i class='bx bx-search search'></i>
+                <div className="searchBox">
+                   <div className="searchToggle">
+                    <i className='bx bx-x cancel'></i>
+                    <i className='bx bx-search search'></i>
                    </div>
-                    <div class="search-field">
+                    <div className="search-field">
                         <input type="text" placeholder="Search..."/>
-                        <i class='bx bx-search'></i>
+                        <i id='searchIcon' className='bx bx-search'></i>
                     </div>
                 </div>
             </div>
