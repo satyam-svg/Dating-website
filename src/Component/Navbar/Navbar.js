@@ -72,7 +72,7 @@ export default function Navbar() {
                     <i className='bx bx-x siderbarClose'></i>
                 </div>
                 <ul className="nav-links">
-                <li><Link to="/">Home</Link></li>               <li><Link to="/members">Members</Link></li>               <li><Link to="works">How it Works</Link></li>               <li><Link to="story">Stories</Link></li>               <li><Link href="#">Login</Link></li>               <li><Link href="#">Sign Up</Link></li>
+                <li><Link to="/">Home</Link></li>               <li><Link to="/members">Members</Link></li>               <li><Link to="works">How it Works</Link></li>               <li><Link to="story">Stories</Link></li>               <li><Link to="signup">Sign Up</Link></li>               <li><Link href="#">Login</Link></li>
                 </ul>
             </div>
             <div className="darkLight-searchBox">

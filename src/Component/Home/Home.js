@@ -65,17 +65,17 @@ gsap.utils.toArray(".revealUp").forEach(function (elem) {
     
       <div className="container2">
       
-        <img src={img1} className="i"alt="error" />
-        <img src={img8} alt="error" className="img8" />
+        <img src={img1} className="i"alt="error" loading="lazy"/>
+        <img src={img8} alt="error" className="img8" loading="lazy"/>
         <div className="rectangle">
           <h4>2.8k+ Members</h4>
           <div class="small-circle">
-            <img src={img2} alt="" className="img1" />
-            <img src={img3} alt="" className="img2" />
-            <img src={img4} alt="" className="img3" />
-            <img src={img5} alt="" className="img4" />
-            <img src={img6} alt="" className="img5" />
-            <img src={img7} alt="" className="img6" />
+            <img src={img2} alt="" className="img1" loading="lazy"/>
+            <img src={img3} alt="" className="img2" loading="lazy"/>
+            <img src={img4} alt="" className="img3" loading="lazy"/>
+            <img src={img5} alt="" className="img4" loading="lazy"/>
+            <img src={img6} alt="" className="img5" loading="lazy"/>
+            <img src={img7} alt="" className="img6" loading="lazy"/>
           </div>
         </div>
       </div>

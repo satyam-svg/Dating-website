@@ -58,7 +58,7 @@ export default function Member() {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png"/>
+          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert1.png" loading="lazy"/>
         </div>
         <p class="text-blk name">
          Revealing Soon
@@ -69,7 +69,7 @@ export default function Member() {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card">
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png"/>
+          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/expert2.png" loading="lazy"/>
         </div>
         <p class="text-blk name">
          Revealing Soon
@@ -80,7 +80,7 @@ export default function Member() {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card" id='three'>
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.14.png"/>
+          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.14.png" loading="lazy"/>
         </div>
         <p class="text-blk name">
          Revealing Soon
@@ -91,7 +91,7 @@ export default function Member() {
     <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
       <div class="card" id='four'>
         <div class="team-image-wrapper">
-          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png"/>
+          <img class="team-member-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET7.15.png" loading="lazy"/>
         </div>
         <p class="text-blk name">
          Revealing Soon
