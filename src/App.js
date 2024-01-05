@@ -25,7 +25,11 @@ function App() {
         <Route   path="/members" element={<Member/>}/>
         <Route   path="/works" element={<Work/>}/>
         <Route   path="/story" element={<Story/>}/>
+<<<<<<< HEAD
         <Route path='/signup' element={<Signup/>}/>
+=======
+        <Route   path="/signup" element={<Signup/>}/>
+>>>>>>> 107be142d0f703973df2e9f468587fddc30fe50b
       </Routes>
       <Navbar />
     </Router>
