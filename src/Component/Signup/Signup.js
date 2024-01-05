@@ -25,7 +25,7 @@ const Signup = () => {
     console.log('Form submitted:', formData);
   };
 
-  return (
+  return(
     <div className="signup-container">
       <form className="signup-form" onSubmit={handleSubmit}>
         <h2>Sign Up</h2>
