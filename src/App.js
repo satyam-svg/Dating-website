@@ -5,6 +5,7 @@ import Home from './Component/Home/Home';
 import Member from './Component/Members/Member';
 import Work from './Component/Works/Work';
 import Story from './Component/Story/Story';
+import Signup from './Component/Signup/Signup';
 function App() {
   const [isRedirectVisible, setRedirectVisible] = useState(true);
 
@@ -24,6 +25,7 @@ function App() {
         <Route   path="/members" element={<Member/>}/>
         <Route   path="/works" element={<Work/>}/>
         <Route   path="/story" element={<Story/>}/>
+        <Route path='/signup' element={<Signup/>}/>
       </Routes>
       <Navbar />
     </Router>
